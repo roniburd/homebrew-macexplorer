@@ -1,8 +1,8 @@
 cask "macexplorer@beta" do
-  version "0.2.0-beta.10"
-  sha256 "205f6b0fd65e0e86664da1f7ce67ca4d493ef5a4139bfb13c4cf6e4d97a772a6"
+  version "0.2.0-beta.11"
+  sha256 "da34d2b03623cac46e6ef33a59d4d1c9042ff1bf2a7efd3774e12e6cd278f8bf"
 
-  url "https://github.com/roniburd/macExplorer/releases/download/v0.2.0-beta.10/MacExplorer-0.2.0-beta.10.zip"
+  url "https://github.com/roniburd/macExplorer/releases/download/v0.2.0-beta.11/MacExplorer-0.2.0-beta.11.zip"
   name "MacExplorer (Beta)"
   desc "Windows Explorer-style file manager"
   homepage "https://github.com/roniburd/macExplorer"
