@@ -1,8 +1,8 @@
 cask "macexplorer" do
-  version "0.8.1"
-  sha256 "4af562e4547cc5f9474e92bf7bdb6965228bb8424db8d2ac1bb8271dfac9b882"
+  version "0.9.0"
+  sha256 "53c950c73525781ae5eade1a68054f49086918d62cec75f9b88b1ca67c78011b"
 
-  url "https://github.com/roniburd/macExplorer/releases/download/v0.8.1/MacExplorer-0.8.1.zip"
+  url "https://github.com/roniburd/macExplorer/releases/download/v0.9.0/MacExplorer-0.9.0.zip"
   name "MacExplorer"
   desc "Windows Explorer-style file manager"
   homepage "https://github.com/roniburd/macExplorer"
@@ -16,7 +16,11 @@ cask "macexplorer" do
   zap trash: [
     "~/Library/Application Support/macExplorer",
     "~/Library/Caches/com.macexplorer.app",
+    "~/Library/Caches/macExplorer",
+    "~/Library/HTTPStorages/com.macexplorer.app",
+    "~/Library/HTTPStorages/com.macexplorer.app.binarycookies",
     "~/Library/Preferences/com.macexplorer.app.plist",
+    "~/Library/Saved Application State/com.macexplorer.app.savedState",
   ]
 
   caveats <<~EOS
