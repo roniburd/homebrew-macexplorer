@@ -1,8 +1,8 @@
 cask "macexplorer" do
-  version "0.9.0"
-  sha256 "53c950c73525781ae5eade1a68054f49086918d62cec75f9b88b1ca67c78011b"
+  version "0.10.0"
+  sha256 "94f8ebdb8e2317d31bf53d74be26d6079d7e6e7a5a0b7d9049c41a6bc82d269f"
 
-  url "https://github.com/roniburd/macExplorer/releases/download/v0.9.0/MacExplorer-0.9.0.zip"
+  url "https://github.com/roniburd/macExplorer/releases/download/v0.10.0/MacExplorer-0.10.0.zip"
   name "MacExplorer"
   desc "Windows Explorer-style file manager"
   homepage "https://github.com/roniburd/macExplorer"
